@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My HomePage</title>
+    <include file="Public/link" />
+</head>
+<style>
+    .container {
+        width: 960px;
+    }
+    
+    .container > .left_c {
+        float: left;
+        width: 400px;
+    }
+    
+    .container > .right_c {
+        margin-left: 660px;
+        width: 400px;
+    }
+    
+    .banner > .banner_font_s {
+        font-size: 13px;
+        display: block;
+    }
+    
+    .list_group {
+        padding-top: 30px;
+        width: 600px;
+    }
+    
+    .list_group > .list-group-item > span {
+        font-size: 14px;
+    }
+    
+    .mybutton {
+        padding-top: 40px;
+    }
+</style>
+
+<body>
+    <include file="Public/menu" />
+    <div class="container">
+        <div class="content">
+            <div class="list_group">
+                <li class="list-group-item"><span style="font-size:28px">Post a Job</span></li>
+                <li class="list-group-item"><span>Job Name</span>
+                    <br>
+                    <input class="text" size="16px" style="width:400px" placeholder="Edit hunt text in the properties pannel">
+                    <br>
+                    <br>
+
+                    <span>Select a JobType</span>
+                    <br>
+                    <input type="radio" name="jobtype" value="radio">Contract &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="jobType" value="radio"> Contest &nbsp; &nbsp;
+                    <br>
+                    <br>
+
+                    <span>Select a Category</span>
+                    <br>
+                    <select>
+                        <option value="Add list items via properties panel">Add list items via properties panel</option>
+                        <option selected value="List Item2">List Item2</option>
+                        <option value="List Item3">List Item3</option>
+                        <option value="List Item4">List Item4</option>
+                        <option value="List Item5">List Item5</option>
+                        <option value="List Item6">List Item6</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <span>Job Reward(￥):</span>
+                    <br>
+                    <input class="text" size="16px" style="width:400px" placeholder="Edit hunt text in the properties pannel">
+                    <br>
+                    <br>
+
+                    <span>Job Duration(Days):</span>
+                    <br>
+                    <input class="text" size="16px" style="width:400px" placeholder="Edit hunt text in the properties pannel">
+                    <br>
+                    <br>
+
+                    <span>Describe your requirements:</span>
+                    <br>
+                    <!--<input class="text" style="width:400px;height:400px;font-size:12px" placeholder="Edit hunt text in the properties pannel"><br>-->
+                    <textarea class="text" style="width:550px;height:250px;font-size:12px" placeholder="Edit hunt text in the properties pannel"></textarea>
+                    <br>
+                    <br>
+                </li>
+                <li class="list-group-item">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="btn btn-primary btn-large">Finish</a></p>
+                </li>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

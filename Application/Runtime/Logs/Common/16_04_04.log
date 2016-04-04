@@ -1,0 +1,102 @@
+[ 2016-04-04T19:13:18+08:00 ] ::1 /angequan/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+ERR: 无法加载模块:Js
+
+[ 2016-04-04T19:13:18+08:00 ] ::1 /angequan/image/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:18+08:00 ] ::1 /angequan/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+ERR: 无法加载模块:Css
+
+[ 2016-04-04T19:13:18+08:00 ] ::1 /angequan/image/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:18+08:00 ] ::1 /angequan/image/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001635s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:39+08:00 ] ::1 /angequan/image/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:39+08:00 ] ::1 /angequan/image/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:39+08:00 ] ::1 /angequan/image/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:39+08:00 ] ::1 /angequan/image/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:13:39+08:00 ] ::1 /angequan/image/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:14:25+08:00 ] ::1 /angequan/image/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002658s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:14:25+08:00 ] ::1 /angequan/image/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:14:25+08:00 ] ::1 /angequan/image/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:17:09+08:00 ] ::1 /angequan/image/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:17:10+08:00 ] ::1 /angequan/image/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:17:10+08:00 ] ::1 /angequan/image/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Image
+
+[ 2016-04-04T19:17:22+08:00 ] ::1 /angequan/index.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+ERR: 无法加载模块:Index
+

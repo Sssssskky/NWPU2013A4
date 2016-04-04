@@ -1,0 +1,55 @@
+.container {
+        width: 960px;
+    }
+    
+    .left {
+        width: 65%;
+        float: left;
+    }
+    
+    .right {
+        margin-left: 5%;
+        width: 30%;
+        float: left;
+    }
+    
+    .left>.dialog {
+        display: block;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .left>.dialog > .head {
+        font-size: 22px;
+        background: #eeeeee;
+        border-bottom: 1px solid lightgray;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px;
+    }
+    
+    .left>.dialog > .dscrp {
+        padding: 10px;
+    }
+    
+    .left>.dialog > .info {
+        padding: 10px;
+    }
+    
+    .left>.dialog > .item {
+        padding: 10px;
+        line-height: 20px;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .left>.dialog >:last-child {
+        border-bottom: none;
+    }
+    
+    .right>.dialog {
+        display: block;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
