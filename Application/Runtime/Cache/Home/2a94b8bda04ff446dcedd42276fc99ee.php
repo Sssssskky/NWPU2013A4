@@ -30,8 +30,6 @@
                 <li><a href="<?php echo U('Job/set');?>">Browse Jobs</a></li>
                 <li><a href="<?php echo U('Job/post');?>">Post a Job</a></li>
                 <li><a href="<?php echo U();?>">Contact Us</a></li>
-                <li><a href="">Regist</a></li>
-                <li><a href="">Sign In</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -45,30 +43,98 @@
                     </ul>
                 </li>-->
             </ul>
-            <!--<form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>-->
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-default">Login</button>
+                </form>
+                <li id="regi"><a href="javascript:return false">Regist</a></li>
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
 </nav>
+<style>
+    #regist {
+        width: 480px;
+        padding: 20px;
+        border: 1px solid #eeeeee;
+        background: #ffffff;
+        margin-left: 50%;
+        border-radius: 10px;
+        position: fixed;
+        opacity: 1;
+        z-index: 1;
+        display: none;
+    }
+    
+    #regist > .head {
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    #regist > .form-inline >.table {
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+</style>
+<script>
+
+    $(document).ready(function(){
+        $("#regi").click(function(){
+             $("#regist").css("display","block");
+             $(".container").children().css("opacity","0.5");
+        });
+        $("#cancel").click(function(){
+            $("#regist").css("display","none");
+            $(".container").children().css("opacity","1");
+        });
+        
+    });
+
+</script>
+<div id="regist">
+    <div class="head">
+        Regist
+    </div>
+    <form class="form-inline" action="">
+        <table class="table">
+            <tr>
+                <div class="form-group">
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" class="form-control" placeholder="username">
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form-group">
+                    <td>Password:</td>
+                    <td>
+                        <input type="text" class="form-control" placeholder="username">
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form-group">
+                    <td></td>
+                    <td>
+                        <input type="submit" class="form-control">
+                        <button id="cancel" class="form-control">取消</button>
+                    </td>
+                </div>
+            </tr>
+        </table>
+    </form>
+</div>
         <div class="container" style="width:960px">
             <div class="page-header">
                 <h1>Micro Service</h1>
@@ -85,7 +151,7 @@
             </ul>-->
 
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -116,11 +182,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <!--<div class="col-md-2">
                     <center>
                         <p><a class="btn btn-primary btn-info" href="#" role="button">Register Now</a></p>
                     </center>
-                </div>
+                </div>-->
             </div>
 
             <div class="row">

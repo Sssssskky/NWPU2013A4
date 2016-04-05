@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/angequan/Public/css/bootstrap.css">
 <script src="/angequan/Public/js/jquery.js"></script>
 <script src="/angequan/Public/js/bootstrap.min.js"></script>
-
 </head>
 <style>
     .container {
@@ -65,8 +64,6 @@
                 <li><a href="<?php echo U('Job/set');?>">Browse Jobs</a></li>
                 <li><a href="<?php echo U('Job/post');?>">Post a Job</a></li>
                 <li><a href="<?php echo U();?>">Contact Us</a></li>
-                <li><a href="">Regist</a></li>
-                <li><a href="">Sign In</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -80,25 +77,18 @@
                     </ul>
                 </li>-->
             </ul>
-            <!--<form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>-->
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-default">Login</button>
+                </form>
+                <li><a href="#">Regist</a></li>
+            </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
